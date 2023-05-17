@@ -6,4 +6,4 @@
 
 3.select name from city order by name;
 
-4.select state,Count(*) as count from city group by state;
+4.select state,count(*) as count from city group by state;
