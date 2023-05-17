@@ -1,0 +1,9 @@
+
+1.create table city(id int,name varchar(50),state varchar(50));
+
+2.insert into city(id,name,state) values(1,"Bengaluru","KA"),(2,"Mysore","KA"),(3,"Delhi","DL"),
+(4,"Mumbai","MH"),(5,"Kolkata","WB"),(6,"Chennai","TN");
+
+3.select name from city order by name;
+
+4.select state,Count(*) as count from city group by state;
